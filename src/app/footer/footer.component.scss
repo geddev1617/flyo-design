@@ -1,0 +1,156 @@
+.f_lll{
+    padding-top: 250px;
+}
+
+.footer_location_flex_container{
+    display: flex;
+    margin-top: 8%;
+}
+
+// .footer_location_flex_container :nth-child(1){
+//     align-self: flex-start;
+// }
+
+// .footer_location_flex_container :first-child{
+//     align-self: flex-start;
+// }
+
+.lorem-t{
+    margin-left: 3%;
+    text-decoration: none;
+    color: #ffff;
+    max-width: 68%;
+    text-align: start;
+}
+
+.contact_info{
+    margin-left: 7%;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.tel_div{
+    width: 100%;
+}
+
+.f_mail{
+    padding-top: 4%;
+}
+
+.footer_links{
+    padding-top: 4%;
+    width: 80%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.a_footer, .footer_icon{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.attribution{
+    font-size: .6875rem;
+    letter-spacing: .12px;
+    font-family: Open-Sans;
+    color: hsl(208, 11%, 55%);
+    padding: 5%;
+    text-align: center;
+}
+
+.fm, .gt{
+    color: hsl(322, 100%, 66%);
+}
+
+@media screen and (max-width: 48em) and (min-width: 30em){
+    .footer_l{
+        padding-top: 0;
+    }
+
+    .footer_flex_container{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        padding-top: 6%;
+    }
+
+    .lorem-t{
+        margin-left: 3%;
+        text-decoration: none;
+        color: #ffff;
+        max-width: 70%;
+        text-align: start;
+    }
+    
+    .contact_info{
+        margin-left: 7%;
+        text-decoration: none;
+        color: #ffff;
+
+    }
+    
+    // .f_mail{
+    //     padding-top: 2%;
+    // }
+    
+    .footer_links{
+        padding-top: 2%;
+    }
+}
+
+@media screen and (min-width: 64em){
+    .f_lll{
+        padding-top: 180px;
+    }
+
+    .footer_l{
+        padding-top: 0;
+    }
+
+    .footer_flex_container{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        // padding-top: 6%;
+    }
+
+    .lorem-t{
+        margin-left: 3%;
+        text-decoration: none;
+        color: #ffff;
+        max-width: 330px;
+        font-size: 1.2em;
+        text-align: start;
+    }
+    
+    .contact_info{
+        margin-left: 7%;
+        text-decoration: none;
+        color: #ffff;
+
+    }
+    
+    // .f_mail{
+    //     padding-top: 2%;
+    // }
+    
+    .footer_links{
+        padding-top: 0%;
+        width: 10%;
+    }
+
+    .a_footer{
+        
+    }
+
+    .attribution{
+        font-size: .75rem;
+        letter-spacing: .12px;
+        font-family: Open-Sans;
+        color: hsl(208, 11%, 55%);
+        padding: 2%;
+        text-align: center;
+    }
+}

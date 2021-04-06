@@ -1,0 +1,114 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root{
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Open-Sans;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    font-weight: 400; 
+}
+
+body
+h1 
+h2 
+h3 
+h4 
+h5 
+h6{
+    margin: 0;
+    padding: 0;
+}
+
+h1
+h2
+h3
+{
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+
+$colorScheme : (
+  primary:#034AD8,
+  secondary: #80d48d2b,
+  tertiary: #F7B924,
+  app-black: #000,
+  text-Dgrey: #505050,
+  alt:#f2f2f2,
+  bg-green: #0CB30C,
+  danger: #FF005E,
+  bg-coral: #FF005E,
+  outlet: #f1f4f6bf,
+  light:#fff,
+  text-grey: #ADADAD,
+  main:  hsl(218, 28%, 13%),
+  bg-darkblue: hsl(216, 53%, 9%),
+);
+
+@function color($key) {
+@return map-get($colorScheme, $key);
+}
+.main{
+    background: color(main);
+    color: #fff;
+}
+.bg-app-primary{
+  background: color(primary);
+  color: #fff;
+}
+.bg-app-outlet{
+  background: color(outlet);
+  color: #fff;
+}
+.bg-app-black{
+  background: color(app-black) !important;
+}
+.bg-app-danger{
+  background: color(danger) !important;
+  color: #fff;
+}
+.bg-app-green{
+  background: color(bg-green) !important;
+  color: #fff;
+}
+.bg-app-secondary{
+  background: color(secondary) !important;
+}
+.bg-app-tertiary{
+  background: color(tertiary);
+}
+.bg-app-primary2{
+  background: color(primary-alt);
+}
+.bg-app-alt{
+  background: color(alt);
+}
+.bg-app-alt{
+  background: color(alt);
+}
+.bg-app-light{
+  background: color(light);
+}
+.bg-app-coral{
+  background: color(bg-coral) !important;
+}
+.text-app-primary{
+  color: color(primary) !important;
+}
+.text-app-danger{
+  color: color(danger) !important;
+}
+.text-app-grey{
+  color:color(text-grey)
+}
+.text-app-secondary{
+  color: color(secondary);
+}
+.footer-bg{
+    background: color(bg-darkblue);
+    color: #fff;
+}

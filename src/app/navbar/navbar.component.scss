@@ -1,0 +1,39 @@
+.nav_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_logo{
+    max-width: 80%;
+    height: auto;
+}
+
+.nav_links, li{
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 1em;
+}
+
+.nav_l{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav_l:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 48em) and (min-width: 30em){
+    .nav_l{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 64em){
+    .nav_l{
+        font-size: 1.2rem;
+    }
+}
